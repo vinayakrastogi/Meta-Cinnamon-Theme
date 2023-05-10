@@ -1,0 +1,279 @@
+#panelLeft .workspace-switcher,
+#panelCenter .workspace-switcher,
+#panelRight .workspace-switcher {
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 0.0);
+}
+
+.workspace-switcher,
+.workspace-graph {
+	padding: 0px;
+}
+
+.workspace-button {
+	color: #ffffff;
+    font-weight:300;
+	padding: 13px;
+	transition-duration: 300;
+}
+
+.workspace-button.vertical {
+	padding: 13px;
+}
+
+.workspace-button:hover {
+	background-color: rgba(255, 255, 255, 0.0);
+    transition-duration: 300;
+}
+
+.workspace-button:outlined {
+    font-weight: bold;
+}
+
+.workspace-button:first-child:outlined {
+	border-radius: 4px 0 0 4px;
+}
+
+.workspace-button:last-child:outlined {
+	border-radius: 0 4px 4px 0;
+}
+
+.workspace-button:first-child:last-child:outlined {
+	border-radius: 4px;
+}
+
+.workspace-button.vertical:first-child:outlined {
+	border-radius: 4px 4px 0 0;
+}
+
+.workspace-button.vertical:last-child:outlined {
+	border-radius: 0 0 4px 4px;
+}
+
+.workspace-button.vertical:first-child:last-child:outlined {
+	border-radius: 4px;
+}
+
+.panel-bottom .workspace,
+.panel-top .workspace {
+	margin: 0 3px;
+	border-radius: 4px;
+}
+
+.panel-bottom .workspace:first-child,
+.panel-top .workspace:first-child {
+	margin-left: 0;
+}
+
+.panel-bottom .workspace:last-child,
+.panel-top .workspace:last-child {
+	margin-right: 0;
+}
+
+.panel-bottom .workspace-graph .workspace:active {
+	border-bottom-width: 2px;
+	border-color: #1a8ad5;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.panel-top .workspace-graph .workspace:active {
+	border-top-width: 2px;
+	border-color: #1a8ad5;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.panel-left .workspace,
+.panel-right .workspace {
+	margin: 3px 0;
+	border-radius: 4px;
+}
+
+.panel-left .workspace:first-child,
+.panel-right .workspace:first-child {
+	margin-top: 0;
+}
+
+.panel-left .workspace:last-child,
+.panel-right .workspace:last-child {
+	margin-bottom: 0;
+}
+
+.panel-left .workspace-graph .workspace:active {
+	border-left-width: 2px;
+	border-color: #1a8ad5;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.panel-right .workspace-graph .workspace:active {
+	border-right-width: 2px;
+	border-color: #1a8ad5;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.workspace-graph .workspace {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.workspace-graph .workspace .windows {
+	-active-window-background: #555555;
+	-active-window-border: rgba(0, 0, 0, 0.85);
+	-inactive-window-background: #555555;
+	-inactive-window-border: rgba(0, 0, 0, 0.85);
+}
+
+.workspace-graph .workspace:active .windows {
+	-active-window-background: #6f6f6f;
+	-active-window-border: rgba(0, 0, 0, 0.85);
+	-inactive-window-background: #3c3c3c;
+	-inactive-window-border: rgba(0, 0, 0, 0.85);
+}
+
+/* EXPO */
+
+.expo-workspaces-name-entry,
+.expo-workspaces-name-entry#selected {
+	height: 1.5em;
+	background-color: rgba(20,20,20,1);
+	border-radius: 4px;
+	color: #ffffff;
+	padding: 12px;
+	border: 2px solid transparent;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+
+.expo-workspace-thumbnail-frame#active {
+	border: 2px solid rgba(255,255,255,0.6);
+}
+
+.expo-workspaces-name-entry:focus,
+.expo-workspaces-name-entry#selected:focus {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	transition-duration: 300;
+	border-bottom-width: 2px;
+	border-color: #1a8ad5;
+	border-radius: 4px 4px 0 0;
+	border: 2px solid #1a8ad5;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+
+.workspace-thumbnails {
+	spacing: 60px;
+    background-color:rgba(0,0,0,0.0);
+}
+
+.workspace-add-button {
+	background-image: url("../assets/other/add-workspace.png");
+	background-color: rgba(0, 0, 0, 0.1);
+	height: 30em;
+	width: 60px;
+	transition-duration: 300;
+	border-radius: 4px 0 0 4px;
+   	border-right-width: 2px;
+	border-color: rgba(255,255,255,0.3);
+}
+
+.workspace-add-button:hover {
+	border-right-width: 2px;
+	border-color: white;
+	padding-left: 2px;
+	transition-duration: 300;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.workspace-add-button:active {
+	background-color: rgba(255,255,255,0.3);
+	transition-duration: 300;
+}
+
+.workspace-overview-background-shade {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.workspace-close-button, .window-close {
+	background-image: url("../assets/other/close.png");
+	background-size: 26px;
+	height: 26px;
+	width: 26px;
+	-cinnamon-close-overlap: 26px;
+}
+
+.workspace-close-button:hover,
+.window-close:hover {
+	background-image: url("../assets/other/close-hover.png");
+	background-size: 26px;
+	height: 26px;
+	width: 26px;
+}
+
+.workspace-close-button:active,
+.window-close:active {
+	background-image: url("../assets/other/close-active.png");
+	background-size: 26px;
+	height: 26px;
+	width: 26px;
+}
+
+.window-close-area {
+	background-image: url("../assets/other/trash-icon.svg");
+	height: 120px;
+	width: 400px;
+}
+
+/* SCALE */
+
+.window-caption {
+	margin: 1.5em 0;
+	background-color: rgba(20,20,20,1);
+	border-radius: 4px 4px 0px 0px;
+	color: #ffffff;
+	padding: 12px;
+}
+
+.window-caption:focus,
+.workspace-osd {
+	background-color: rgba(20, 20, 20, 1);
+	color: #ffffff;
+	border-bottom-width: 2px;
+	border-color: #fff;
+	border-radius: 4px 4px 0 0;
+}
+
+.window-border {
+	border: 2px solid white;
+}
+
+/* OSD */
+
+.info-osd {
+	background-color: rgba(20, 20, 20, 1);
+	color: #ffffff;
+	border-radius:10px;
+	padding: 20px;
+	border-width: 0px;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.osd-window {
+	color: white;
+	background-color: rgba(20,20,20,0.8);
+	border-radius: 10px;
+	padding: 10px;
+	spacing: 10px;
+}
+
+.osd-window .level {
+	height: 0.5em;
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 4px;
+}
+
+.osd-window .level-bar {
+	border-radius: 10px;
+    background-color: rgba(255,255,255,1)
+}

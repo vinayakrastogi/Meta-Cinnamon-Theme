@@ -1,0 +1,9 @@
+.menu .menu-selected-app-box {
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-selected-app-title, .menu-selected-app-description {
+	font-size: 0;
+}

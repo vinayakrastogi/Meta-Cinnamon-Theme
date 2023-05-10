@@ -1,0 +1,517 @@
+/* HIDE MENU CATEGORY NAME */
+
+/* HIDE DESCRIPTION BOX */
+@import url("css/hide-description-box.css");
+
+/* Panel */
+@import url("css/panel.css");
+
+/* Grouped window list */
+@import url("css/grouped-window-list.css");
+
+/* Window list */
+@import url("css/window-list.css");
+
+/* Menu & Submenu */
+@import url("css/menu.css");
+
+/* Calendar */
+@import url("css/calendar.css");
+
+/* Panel Launchers */
+@import url("css/panel-launchers.css");
+
+/* Keyboard */
+@import url("css/keyboard.css");
+
+/* Notification */
+@import url("css/notification.css");
+
+/* Workspace switcher */
+@import url("css/workspace-switcher.css");
+
+/* Modal Dialog */
+@import url("css/modal.css");
+
+/* Sound Player */
+@import url("css/sound.css");
+
+/* Applet */
+@import url("css/applet.css");
+
+stage {
+	color: #FFFFFF;
+}
+
+.label-shadow {
+	color: transparent;
+}
+
+StScrollView.vfade {
+	-st-vfade-offset: 68px;
+}
+
+StScrollView.hfade {
+	-st-hfade-offset: 68px;
+}
+
+StScrollBar {
+	margin-top: 10px;
+	margin-left: 8px;
+}
+
+StScrollView StScrollBar {
+	min-width: 2px;
+	min-height: 2px;
+}
+
+StScrollBar StBin#trough {
+	background-color: transparent;
+}
+
+StScrollBar StButton#vhandle,
+StScrollBar StButton#hhandle {
+	background-color: #3d3d3d;
+}
+
+StScrollBar StButton#vhandle:hover,
+StScrollBar StButton#hhandle:hover {
+	background-color: #1a8ad5;
+}
+
+StScrollBar StButton#vhandle:active,
+StScrollBar StButton#hhandle:active {
+	background-color: #1a8ad5;
+}
+
+.separator {
+	-gradient-height: 1px;
+	-gradient-start: transparent;
+	-gradient-end: transparent;
+	-margin-horizontal: 1.5em;
+	height: 1em;
+}
+
+.check-box CinnamonGenericContainer {
+	spacing: .2em;
+	min-height: 30px;
+	padding-top: 2px;
+}
+
+.check-box StLabel {
+	font-weight: normal;
+}
+
+.check-box StBin {
+	width: 16px;
+	height: 16px;
+	background-image: url("assets/checkbox/checkbox-unchecked.svg");
+}
+
+.check-box:focus StBin {
+	background-image: url("assets/checkbox/checkbox-unchecked-focused.svg");
+}
+
+.check-box:checked StBin {
+	background-image: url("assets/checkbox/checkbox-checked.svg");
+}
+
+.check-box:focus:checked StBin {
+	background-image: url("assets/checkbox/checkbox-checked-focused.svg");
+}
+
+.radiobutton CinnamonGenericContainer {
+	spacing: .2em;
+	height: 26px;
+	padding-top: 2px;
+}
+
+.radiobutton StLabel {
+	padding-top: 4px;
+	font-size: 0.9em;
+}
+
+.radiobutton StBin {
+	width: 16px;
+	height: 16px;
+	background-image: url("assets/checkbox/checkbox-unchecked.svg");
+}
+
+.radiobutton:focus StBin {
+	background-image: url("assets/checkbox/checkbox-unchecked-focused.svg");
+}
+
+.radiobutton:checked StBin {
+	background-image: url("assets/checkbox/checkbox-checked.svg");
+}
+
+.radiobutton:focus:checked StBin {
+	background-image: url("assets/checkbox/checkbox-checked-focused.svg");
+}
+
+.toggle-switch {
+	width: 36px;
+	height: 18px;
+	background-size: contain;
+}
+
+
+.toggle-switch-us,
+.toggle-switch-intl {
+	background-image: url('assets/switch/switch-off.svg');
+}
+
+
+.toggle-switch-us:checked,
+.toggle-switch-intl:checked {
+	background-image: url('assets/switch/switch-on.svg');
+}
+
+.cinnamon-link {
+	color: #a6b3df;
+	text-decoration: underline;
+}
+
+.cinnamon-link:hover {
+	color: #ccd3ec;
+}
+
+#Tooltip {
+	padding: 15px;
+    padding-left:30px;
+    padding-right:30px;
+	color: rgba(255,255,255,1);
+	background-color: rgba(20,20,20,1);
+	font-size: 1em;
+	font-weight: 400;
+	text-align: center;
+}
+
+#LookingGlassDialog {
+	color: #FFFFFF;
+	border: 1px solid #202020;
+	border-radius: 3px;
+	background-color: #2f2f2f;
+	spacing: 4px;
+	padding: 8px;
+}
+
+.nm-menu-item-icons {
+	spacing: .5em;
+}
+
+.system-status-icon {
+	icon-size: 16px;
+}
+
+.system-status-icon.warning {
+	color: #DB2A36;
+}
+
+.system-status-icon.error {
+	color: #DB2A36;
+}
+
+#overview {
+	spacing: 12px;
+}
+
+.overview-empty-placeholder {
+	color: #FFFFFF;
+	font-size: 2em;
+}
+
+#altTabPopup {
+	spacing: 8px;
+}
+
+.switcher-list {
+	color: #cbced1;
+	padding: 8px;
+	background-color: #1a1d1f;
+	border-radius: 4px;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.switcher-list > StBoxLayout {
+	padding: 4px;
+}
+
+.switcher-list-item-container {
+	spacing: 8px;
+}
+
+.switcher-list .item-box {
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.switcher-list .item-box:outlined {
+	padding: 8px;
+}
+
+.switcher-list .item-box:selected {
+	color: #ffffff;
+	background-color: #272b30;
+}
+
+.switcher-list .thumbnail {
+	width: 256px;
+}
+
+.switcher-list .separator {
+	width: 1px;
+	background-color: #272b30;
+}
+
+.switcher-arrow {
+	border-color: transparent;
+	color: #FFFFFF;
+}
+
+.switcher-arrow:highlighted {
+	border-color: transparent;
+	color: #FFFFFF;
+}
+
+
+.thumbnail-scroll-gradient-left {
+	background-color: transparent;
+	border-radius: 24px;
+	border-radius-topright: 0px;
+	border-radius-bottomright: 0px;
+	width: 60px;
+}
+
+.thumbnail-scroll-gradient-right {
+	background-color: transparent;
+	border-radius: 24px;
+	border-radius-topleft: 0px;
+	border-radius-bottomleft: 0px;
+	width: 60px;
+}
+
+.ripple-box {
+	width: 104px;
+	height: 104px;
+	background-image: url("assets/other/corner-ripple.svg");
+	background-size: contain;
+}
+
+.ripple-box:rtl {
+	background-image: url("assets/other/corner-ripple.svg");
+}
+
+.lightbox {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.flashspot {
+	background-color: #FFFFFF;
+}
+
+.cinnamon-mount-operation-icon {
+	icon-size: 48px;
+}
+
+.mount-password-reask {
+	color: #f27835;
+}
+
+.show-processes-dialog,
+.mount-question-dialog {
+	spacing: 24px;
+}
+
+.show-processes-dialog-subject,
+.mount-question-dialog-subject {
+	padding-top: 10px;
+	padding-left: 17px;
+	padding-bottom: 6px;
+}
+
+.show-processes-dialog-subject:rtl,
+.mount-question-dialog-subject:rtl {
+	padding-left: 0px;
+	padding-right: 17px;
+}
+
+.show-processes-dialog-description,
+.mount-question-dialog-description {
+	padding-left: 17px;
+	width: 28em;
+}
+
+.show-processes-dialog-description:rtl,
+.mount-question-dialog-description:rtl {
+	padding-right: 17px;
+}
+
+.show-processes-dialog-app-list {
+	max-height: 200px;
+	padding-top: 24px;
+	padding-left: 49px;
+	padding-right: 32px;
+}
+
+.show-processes-dialog-app-list:rtl {
+	padding-right: 49px;
+	padding-left: 32px;
+}
+
+.show-processes-dialog-app-list-item {
+	color: #ccc;
+}
+
+.show-processes-dialog-app-list-item:hover {
+	color: #FFFFFF;
+}
+
+.show-processes-dialog-app-list-item:ltr {
+	padding-right: 1em;
+}
+
+.show-processes-dialog-app-list-item:rtl {
+	padding-left: 1em;
+}
+
+.show-processes-dialog-app-list-item-icon:ltr {
+	padding-right: 17px;
+}
+
+.show-processes-dialog-app-list-item-icon:rtl {
+	padding-left: 17px;
+}
+
+.show-processes-dialog-app-list-item-name {
+	font-size: 1.1em;
+}
+
+.magnifier-zoom-region {
+	border: 2px solid maroon;
+}
+
+.magnifier-zoom-region .full-screen {
+	border-width: 0px;
+}
+
+#overview-corner {
+	background-image: url("assets/other/overview.png");
+}
+
+#overview-corner:hover {
+	background-image: url("assets/other/overview-hover.png");
+}
+
+.desklet {
+	color: #FFFFFF;
+}
+
+.desklet:highlight {
+	background-color: rgba(20,20,20,1);
+}
+
+.desklet-with-borders {
+	border-radius: 20px;
+	background-color: rgba(20, 20, 20, 1);
+	box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.0);
+	color: #FFFFFF;
+	padding: 20px;
+}
+
+.desklet-with-borders:highlight {
+	background-color: rgba(252, 65, 56, 0.5);
+}
+
+.desklet-with-borders-and-header {
+	background-color: rgba(20,20,20,1);
+	color: #FFFFFF;
+	border-radius: 0px 0px 20px 20px;
+	padding: 20px;
+}
+
+.desklet-with-borders-and-header:highlight {
+	background-color: rgba(252, 65, 56, 0.5);
+}
+
+.desklet-header {
+	border: none;
+	border-radius: 20px 20px 0px 0px;
+	background-color: rgba(15,15,15,1);
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 1em;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.desklet-drag-placeholder {
+	border: 2px solid #000;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.photoframe-box {
+	border-radius: 10px;
+    border-color: #141414;
+	background-color: rgba(20,20,20,1);
+	color: #FFFFFF;
+	padding: 10px;    
+}
+
+.tile-preview {
+	background-color: rgba(0,0,0,0.7);
+	border: 1px solid rgba(0,0,0,1);
+}
+.tile-preview.snap {
+	background-color: rgba(91, 115, 196, 0.6);
+}
+
+.tile-hud {
+	background-color: rgba(91, 115, 196, 0.3);
+}
+
+.tile-hud.snap {
+	background-color: rgba(91, 115, 196, 0.6);
+}
+
+.tile-hud:top {
+	border-top-width: 0px;
+}
+
+.tile-hud:bottom {
+	border-bottom-width: 0px;
+}
+
+.tile-hud:left {
+	border-left-width: 0px;
+}
+
+.tile-hud:right {
+	border-right-width: 0px;
+}
+
+.tile-hud:top-left {
+	border-top-width: 0px;
+	border-left-width: 0px;
+}
+
+.tile-hud:top-right {
+	border-top-width: 0px;
+	border-right-width: 0px;
+}
+
+.tile-hud:bottom-left {
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.tile-hud:bottom-right {
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+}
+
+.xkcd-box {
+	padding: 6px;
+	border: 0px;
+	background-color: transparent;
+	border-radius: 0px;
+}

@@ -1,0 +1,79 @@
+.applet-separator {
+    margin: 13px 0px;
+	padding: 0px 8px;
+}
+
+.applet-separator.vertical {
+    margin: 0px 13px;
+	padding: 8px 0px;
+}
+
+.applet-separator-line {
+	width: 1px;
+	background-color: rgba(255, 255, 255, 0.12);
+}
+
+.applet-separator-line-vertical {
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.12);
+}
+
+.applet-box {
+	padding-left: 8px;
+	padding-right: 8px;
+	spacing: 8px;
+	color: #FFFFFF;
+	transition-duration: 100;
+    text-align: center;
+}
+
+.applet-box.vertical {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+    text-align: center;
+}
+
+.applet-box:hover,
+.applet-box:checked {
+	color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.1);
+	transition-duration: 300;
+}
+
+.applet-box:hover-label,
+.applet-box:checked-label {
+	color: #FFFFFF;
+}
+
+.applet-box:highlight {
+	background-color: rgba(252, 65, 56, 0.5);
+}
+
+.applet-label {
+	font-weight: normal;
+}
+
+.applet-label:hover,
+.applet-label:checked,
+.applet-box:hover > .applet-label,
+.applet-box:checked > .applet-label {
+	color: #FFFFFF;
+}
+
+.applet-icon {
+	color: #FFFFFF;
+}
+
+.applet-icon:hover,
+.applet-icon:checked,
+.applet-box:hover > .applet-icon,
+.applet-box:checked > .applet-icon {
+	color: #FFFFFF;
+}
+
+.user-label {
+	color: #cbced1;
+	font-weight: normal;
+}

@@ -1,0 +1,248 @@
+.menu,
+.popup-combo-menu {
+	color: #cbced1;
+	background-color:#141414;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0);
+	padding: 10px;
+    margin: 8px;
+    border-radius:4px;
+}
+
+.popup-menu-content {
+	padding: 8px;
+}
+
+.popup-sub-menu {
+	background-color: rgba(255,255,255,0.05);
+	border-radius: 0px 0px 4px 4px;
+}
+
+.popup-menu-item {
+	padding: 7px 27px;
+	spacing: 10px;
+}
+
+.popup-sub-menu .popup-menu-item:active {
+	border-radius: 0px;
+	background-color: rgba(255,255,255,0.2);
+}
+
+.popup-sub-menu .popup-menu-item:active:last-child {
+	border-radius: 0px 0px 4px 4px;
+}
+
+.popup-menu-item:active {
+	color: #ffffff;
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 4px;
+}
+
+.popup-submenu-menu-item:open {
+	border-radius: 0px;
+}
+
+.popup-submenu-menu-item:open {
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 4px 4px 0px 0px;
+}
+
+.popup-submenu-menu-item:open:active {
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 4px 4px 0px 0px;
+}
+
+.popup-separator-menu-item {
+	background-color:rgba(255,255,255,0.3);
+	height: 1px;
+}
+
+.popup-inactive-menu-item {
+	color: #57606a;
+}
+
+.menu-context-menu, .menu-applications-inner-box StScrollView {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #313538;
+  margin: 5px 0;
+}
+
+.popup-combo-menu .popup-menu-item {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.popup-combo-menu .popup-menu-item:first-child {
+	margin-top: 8px;
+}
+
+.popup-combo-menu .popup-menu-item:last-child {
+	margin-bottom: 8px;
+}
+
+.popup-slider-menu-item,
+.slider {
+	-slider-height: 0.15em;
+	-slider-background-color: #313538;
+	-slider-active-background-color: #F8C34C;
+	-slider-handle-radius: 0.5em;
+	height: 1em;
+	min-width: 15em;
+}
+
+.popup-sub-menu StScrollBar {
+	padding: 4px;
+}
+
+.popup-sub-menu StScrollBar StBin#trough,
+.popup-sub-menu StScrollBar StBin#vhandle {
+	border-width: 0;
+}
+
+.popup-menu-item:insensitive {
+	color: rgba(0, 0, 0, 0.85);
+	background-color: #F8C34C;
+	border-radius: 4px;
+}
+
+.popup-inactive-menu-item:insensitive {
+	color: #FFFFFF;
+}
+
+.popup-alternating-menu-item:alternate {
+	font-weight: normal;
+}
+
+.popup-device-menu-item {
+	spacing: .5em;
+}
+
+.popup-subtitle-menu-item {
+	font-weight: normal;
+}
+
+.menu-favorites-box {
+	margin-right: 8px;
+	spacing: 8px;
+}
+
+.menu-favorites-button {
+	padding: 10px;
+	background-color: transparent;
+}
+
+.menu-favorites-button:hover {
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 4px;
+}
+
+.menu-places-box {
+	padding: 10px;
+}
+
+.menu-places-button {
+	padding: 0px;
+}
+
+.menu-categories-box {
+	margin-top: 10px;
+}
+
+.menu-applications-outer-box {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-applications-inner-box {
+	border-radius: 0px 4px 4px 4px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.menu-application-button {
+	padding: 10px;
+}
+
+.menu-application-button:highlighted {
+	font-weight: bold;
+}
+
+.menu-application-button-selected {
+	padding: 10px;
+	color: #ffffff;
+	background-color: rgba(255,255,255,0.2);
+  border-radius: 0px;
+}
+
+.menu-application-button-selected:highlighted {
+	font-weight: bold;
+}
+
+.menu-application-button-label:ltr {
+	padding-left: 10px;
+}
+
+.menu-application-button-label:rtl {
+	padding-right: 10px;
+}
+
+.menu-category-button {
+	padding: 10px;
+	border-bottom-width: 2px;
+}
+
+.menu-category-button-selected {
+	padding: 10px;
+	color: #ffffff;
+	background-color: rgba(255,255,255,0.1);
+    border-bottom-width: 2px;
+	border-color: rgba(255,255,255,0.8);
+
+}
+
+.menu-category-button-greyed {
+	padding: 10px;
+	color: #1a8ad5;
+}
+
+.menu-category-button-label:ltr {
+	padding-left: 10px;
+}
+
+.menu-category-button-label:rtl {
+	padding-right: 10px;
+}
+
+.menu-selected-app-box {
+	height: 100%;
+	background-color: #272b30;
+	margin-right: 13px;
+	margin-top: 8px;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.menu-selected-app-title {
+	font-weight: bold;
+}
+
+.menu-selected-app-title,
+.menu-selected-app-description {
+	color: #cbced1;
+}
+
+.menu-search-box:ltr {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#menu-search-entry {
+	min-height: 20px;
+	font-weight: normal;
+	caret-color: #cbced1;
+}
+
+.menu-search-entry-icon {
+	icon-size: 16px;
+	color: white;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 18" width="36" height="18">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #cfd8dc } 
+		.shp1 { fill: #2d89ef } 
+	</style>
+	<path id="Слой 1" class="shp0" d="M9 0L27 0C31.98 0 36 4.02 36 9L36 9C36 13.98 31.98 18 27 18L9 18C4.02 18 0 13.98 0 9L0 9C0 4.02 4.02 0 9 0Z" />
+	<path id="Слой 2" class="shp1" d="M27 15C23.68 15 21 12.32 21 9C21 5.68 23.68 3 27 3C30.32 3 33 5.68 33 9C33 12.32 30.32 15 27 15Z" />
+</svg>

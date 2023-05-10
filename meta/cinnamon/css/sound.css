@@ -1,0 +1,102 @@
+.sound-player > StBoxLayout:first-child {
+	margin-top: 8px;
+	padding: 10px;
+	background-color: rgba(20,20,20,1);
+	border-radius: 4px 4px 0 0;
+}
+
+.sound-player > StBoxLayout:first-child StButton:small {
+	padding: 6px;
+	border-radius: 4px;
+	transition-duration: 300;
+    background-color:black;
+    color:white;
+}
+
+.sound-player > StBoxLayout:first-child StButton:small:last-child {
+	margin-left: 8px;
+}
+
+.sound-player > StBoxLayout:first-child StButton:small:hover {
+	color: black;
+    background-color:white;
+	transition-duration: 300;
+}
+
+.sound-player > StBoxLayout:first-child StButton:small:active {
+	color: #ffffff;
+	background-color: black;
+	transition-duration: 300;
+}
+
+.sound-player > StBoxLayout:first-child StButton:small StIcon,
+.sound-player-overlay StButton StIcon {
+	icon-size: 16px;
+}
+
+.sound-player-overlay {
+	width: 400px;
+	color: #ffffff;
+	margin: 10px;
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sound-player-overlay StBoxLayout:last-child {
+	spacing: 8px;
+	margin: 10px;
+    padding:10px;
+    border-radius:4px;
+    background-color:rgba(255,255,255,0.05);
+}
+
+.sound-player-overlay > StBoxLayout {
+	padding: 10px;
+	spacing: 8px;
+	color: #ffffff;
+    font-weight:bold;
+	border: 2px solid rgba(255,255,255,0.5);
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.sound-player-overlay > StBoxLayout:first-child {
+	border-bottom: none;
+}
+
+.sound-player-overlay StButton {
+	padding: 8px;
+	background-color: rgba(255,255,255,0.85);
+    color:black;
+	border-radius: 4px;
+	margin: 0 2px;
+	transition-duration: 300;
+}
+
+.sound-player-overlay StButton:hover {
+	background-color: black;
+    color: white;
+	transition-duration: 300;
+}
+
+.sound-player-overlay StButton:active {
+	background-color: #272b30;
+	color: #cbced1;
+	transition-duration: 300;
+}
+
+.sound-player .slider {
+	background-color: #272b30;
+	border-radius: 0 0 4px 4px;
+	height: 0.5em;
+	padding: 10px;
+	border: none;
+	-slider-height: 0.5em;
+	-slider-background-color: rgba(0, 0, 0, 0.5);
+	-slider-border-color: transparent;
+	-slider-active-background-color: #1a8ad5;
+	-slider-active-border-color: transparent;
+	-slider-border-width: 0;
+	-slider-handle-radius: 0;
+}

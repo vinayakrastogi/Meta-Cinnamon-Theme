@@ -1,0 +1,122 @@
+#notification {
+	background-color: rgba(20,20,20,1);
+	border-radius: 4px;
+	spacing-rows: 10px;
+	spacing-columns: 10px;
+	margin-from-right-edge-of-screen: 10px;
+	width: 30em;
+	padding: 10px;
+}
+
+#notification.multi-line-notification {
+	color: #cbced1;
+}
+
+.notification-with-image {
+	min-height: 160px;
+}
+
+.notification-icon-button > StIcon {
+	icon-size: 16px;
+	color: #cbced1;
+}
+
+.popup-menu #notification .notification-button,
+.popup-menu #notification .notification-icon-button,
+.notification-button,
+.notification-icon-button {
+	padding: 8px;
+	background-color: #313538;
+	color: #ffffff;
+	transition-duration: 300;
+	border-radius: 4px;
+	margin: 0 4px;
+}
+
+.popup-menu #notification .notification-button:hover,
+.popup-menu #notification .notification-icon-button:hover,
+.notification-button:hover,
+.notification-icon-button:hover {
+	background-color: #1a8ad5;
+	transition-duration: 300;
+}
+
+.popup-menu #notification .notification-button:active,
+.popup-menu #notification .notification-icon-button:active,
+.notification-button:active,
+.notification-icon-button:active {
+	background-color: rgba(0, 0, 0, 0.3);
+	transition-duration: 300;
+}
+
+.popup-menu #notification .notification-button:insensitive,
+.popup-menu #notification .notification-icon-button:insensitive,
+.notification-button:insensitive,
+.notification-icon-button:insensitive {
+	color: rgba(240, 240, 240, 0.45);
+	background-color: rgba(69, 69, 69, 0.55);
+}
+
+.popup-menu #notification StEntry,
+#menu-search-entry {
+	padding: 10px;
+	caret-size: 1px;
+	caret-color: #cbced1;
+	selection-background-color: #cbced1;
+	selected-color: #3d3d3d;
+	transition-duration: 300;
+	color: #cbced1;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.popup-menu #notification StEntry:focus,
+#menu-search-entry:focus,
+.popup-menu #notification StEntry:hover,
+#menu-search-entry:hover {
+	color: #cbced1;
+	background-color: #313538;
+	border-radius: 4px;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.popup-menu #notification StEntry:insensitive,
+#menu-search-entry:insensitive {
+	color: rgba(240, 240, 240, 0.45);
+	background-color: #383838;
+}
+
+.popup-menu #notification StEntry StIcon.capslock-warning,
+#menu-search-entry StIcon.capslock-warning {
+	icon-size: 16px;
+	warning-color: #f27835;
+	padding: 0px 4px;
+}
+
+.notification StEntry {
+	padding: 10px;
+	caret-size: 1px;
+	caret-color: #c3c3c3;
+	selection-background-color: #76b9ed;
+	selected-color: #FFFFFF;
+	transition-duration: 300;
+	color: #FFFFFF;
+	background-color: rgba(109, 109, 109, 0.4);
+}
+
+.notification StEntry:focus {
+	color: #FFFFFF;
+	background-color: #76b9ed;
+}
+
+.notification StEntry:insensitive {
+	color: rgba(195, 195, 195, 0.55);
+	background-color: rgba(109, 109, 109, 0.25);
+}
+
+.notification-applet-padding {
+	padding: .5em 1em;
+}
+
+.notification-applet-container {
+	max-height: 100px;
+}

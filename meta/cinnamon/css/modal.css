@@ -1,0 +1,77 @@
+.modal-dialog {
+	color: #cbced1;
+	background-color: #1a1d1f;
+	border-radius: 4px;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog StBoxLayout:first-child {
+	padding: 20px;
+}
+
+.run-dialog StBoxLayout:first-child {
+	padding: 0;
+}
+
+.modal-dialog .confirm-dialog-title,
+.run-dialog-label {
+	font-size: 0;
+}
+
+.run-dialog .modal-dialog-button-box {
+    background: none;
+}
+
+.run-dialog-description {
+	padding: 20px;
+	background-color: #272b30;
+	border-radius: 0 0 4px 4px;
+}
+
+.run-dialog-description.error {
+	background-color: #1a8ad5;
+	color: #ffffff;
+	transition-duration: 300;
+}
+
+.run-dialog-entry {
+	padding: 12px;
+	margin: 10px;
+	border-radius: 4px;
+	caret-color: #cbced1;
+	selected-color: #3d3d3d;
+	selection-background-color: #cbced1;
+	color: #cbced1;
+	background-color: #313538;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* BUTTON */
+
+.modal-dialog-button {
+	border-radius: 4px;
+}
+
+.modal-dialog-button-box {
+	background-color: #272b30;
+	border-radius: 0 0 4px 4px;
+}
+
+.modal-dialog-button-box .modal-dialog-button {
+	margin: 10px 20px;
+	padding: 10px 20px;
+	background-color: #313538;
+	color: #cbced1;
+	transition-duration: 300;
+}
+
+.modal-dialog-button-box .modal-dialog-button:hover {
+	color: #ffffff;
+	background-color: #1a8ad5;
+	transition-duration: 300;
+}
+
+.modal-dialog-button-box .modal-dialog-button:active {
+	background-color: rgba(0, 0, 0, 0.3);
+	transition-duration: 300;
+}
